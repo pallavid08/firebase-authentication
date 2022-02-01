@@ -1,0 +1,10 @@
+1. Create react app
+2. Install firebase
+3. Create project in firebase account
+4. Create firebase.utils.js and import firebase, auth
+5. Paste config from your firebase project overview
+6. Create database in firebase account and paste database id inside config
+7.
+8. Initialize firebase with initializeApp in firebase.utils.js
+9. Import GoogleAuthProvider from firebase
+9. For frontend, create register, login, and logout components
