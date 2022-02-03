@@ -8,9 +8,12 @@ const Home = ({ user }) => {
   return (
     <div className="home">
       <h1>Hello, <span></span>{user.displayName}</h1>
-      <h3>Email <span></span>{user.email}</h3>
+      {/* <h3>Email <span></span>{user.email}</h3> */}
       <img src={user.photoURL} alt="photo" />
-      <button className="button signout" onClick={() => auth.signOut()}>Sign out</button>
+      <div>
+      <button className="button signout" onClick={() => auth.signOut()}><i className="fab fa-google"></i>Sign out</button>
+      </div>
+      
     </div>
   )
 }

@@ -4,7 +4,6 @@ import 'firebase/compat/auth';
 
 
 
-
 const firebaseConfig = {
     apiKey: "AIzaSyDzCWzXl3OiWv7ha8_49_XJ3kQv7QE8EKQ",
     authDomain: "authentication-practice-d4aea.firebaseapp.com",
